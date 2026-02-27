@@ -39,7 +39,7 @@ This enables analysis of how ideological framing and persuasion co-exist in medi
 We introduce two multi-hop reasoning frameworks to enable structured ideological analysis.
 
 <p align="center">
-  <img src="Images/framework.png" width="700"/>
+  <img src="Images/framework.png" width="900"/>
 </p>
 
 FANTA performs article bias classification and narrative detection by modeling entities, relations, and contextual framing. And TPTC identifies persuasive strategies using a two-stage pipeline — first detecting conceptual persuasion categories, and then mapping them to fine-grained techniques.
