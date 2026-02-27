@@ -1,4 +1,4 @@
-## INDI-PROP
+# INDI-PROP
 
 This repository contains the INDI-PROP dataset along with the implementation of the FANTA & TPTC frameworks, as introduced in our paper:
 
@@ -6,7 +6,7 @@ This repository contains the INDI-PROP dataset along with the implementation of 
 📅 Accepted at: Language Resources and Evaluation Conference (LREC), 2026  
 📍 Palma, Mallorca (Spain) | 🗓 11–16 May 2026
 
-# Overview
+## Overview
 
 INDI-PROP is an ideologically grounded dataset for studying bias, narrative framing, and persuasive techniques in Indian news media. The resource is built around two major socio-political events:
 
@@ -24,39 +24,25 @@ Each article is annotated at multiple levels to capture:
 
 This enables analysis of how ideological framing and persuasion co-exist in media discourse.
 
-# Framework
+## Dataset Statistics
 
-Along with the dataset, we introduce two multi-hop reasoning frameworks:
+| Component | Count |
+|----------|------|
+| Total Articles | 1,266 |
+| Events Covered | 2 (CAA/NRC and Farmer's Protest) |
+| Bias Labels | 3 (Pro-Gov, Pro-Opp, Neutral) |
+| Fine-Grain Narrative Categories | 11 (CAA/NRC), 9 (Farmer's Protest) |
+| Fine-Grain Persuasion Techniques Categories | 20 |
 
-1. FANTA
+## Framework
 
-Used for:
+We introduce two multi-hop reasoning frameworks to enable structured ideological analysis.
 
-- Article Bias Classification
+FANTA performs article bias classification and narrative detection by modeling entities, relations, and contextual framing.
 
-- Fine-grained Narrative Detection
+TPTC identifies persuasive strategies using a two-stage pipeline — first detecting conceptual persuasion categories, and then mapping them to fine-grained techniques.
 
-It leverages:
-
-- Entity extraction
-
-- Relation understanding
-
-- Context framing 
-
-2. TPTC
-
-Used for:
-
-- Fine-grained Persuasive Technique Classification
-
-It follows a two-stage approach:
-
-- First → identify conceptual persuasion categories
-
-- Then → map them to fine-grained techniques
-
-# Dataset Access
+## Dataset Access
 
 The dataset is available for research purposes only.
 
@@ -64,7 +50,7 @@ To request access, please fill out the form below:
 
 👉 [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSegB-fPJ7H4Wsn2nGWzty2Ju5RcV8wDT9uYmjfvt6FADC4CcA/viewform?usp=dialog)
 
-# Usage Policy
+## Usage Policy
 
 By requesting access, you agree to:
 
@@ -79,22 +65,28 @@ The dataset is released to support transparency and computational media analysis
 The data reflects real-world political discourse and may contain ideological or sensitive content.
 Users are encouraged to interpret and use it responsibly.
 
-# Citation
+## Citation
 
 If you use this dataset or framework, please cite:
 
+## Citation
+
+If you use this dataset or framework, please cite:
+
+```bibtex
 @article{afroz2025fine,
   title={Fine-grained Narrative Classification in Biased News Articles},
   author={Afroz, Zeba and Vardhan, Harsh and Bhakuni, Pawan and Punia, Aanchal and Kumar, Rajdeep and Akhtar, Md Shad},
   journal={arXiv preprint arXiv:2512.03582},
   year={2025}
 }
+```
 
-# Contact
+## Contact
 
 For questions or collaborations:
 
-[Zeba Afroz](zebaa@iiitd.ac.in)
-[Harsh Vardan](harsh25001@iiitd.ac.in)
-[Md. Shad Akhtar](shad.akhtar@iiitd.ac.in)
+- [Zeba Afroz](zebaa@iiitd.ac.in)
+- [Harsh Vardan](harsh25001@iiitd.ac.in)
+- [Md. Shad Akhtar](shad.akhtar@iiitd.ac.in)
 
