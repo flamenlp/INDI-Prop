@@ -29,7 +29,7 @@ This enables analysis of how ideological framing and persuasion co-exist in medi
 | Component | Count |
 |----------|------|
 | Total Articles | 1,266 |
-| Events Covered | 2 (CAA/NRC and Farmer's Protest) |
+| Events Covered | 2 |
 | Bias Labels | 3 (Pro-Gov, Pro-Opp, Neutral) |
 | Fine-Grain Narrative Categories | 11 (CAA/NRC), 9 (Farmer's Protest) |
 | Fine-Grain Persuasion Techniques Categories | 20 |
@@ -38,9 +38,11 @@ This enables analysis of how ideological framing and persuasion co-exist in medi
 
 We introduce two multi-hop reasoning frameworks to enable structured ideological analysis.
 
-FANTA performs article bias classification and narrative detection by modeling entities, relations, and contextual framing.
+<p align="center">
+  <img src="Images/FANTA&TPTC.pdf" width="600"/>
+</p>
 
-TPTC identifies persuasive strategies using a two-stage pipeline — first detecting conceptual persuasion categories, and then mapping them to fine-grained techniques.
+FANTA performs article bias classification and narrative detection by modeling entities, relations, and contextual framing. And TPTC identifies persuasive strategies using a two-stage pipeline — first detecting conceptual persuasion categories, and then mapping them to fine-grained techniques.
 
 ## Dataset Access
 
@@ -54,20 +56,16 @@ To request access, please fill out the form below:
 
 By requesting access, you agree to:
 
-- Use the dataset strictly for academic or research purposes
+- Use the dataset strictly for academic or research purposes.
 
-- Do not use it for political targeting, profiling, or manipulation
+- Do not use it for political targeting, profiling, or manipulation.
 
-- Cite the original paper in any published work
-
-The dataset is released to support transparency and computational media analysis.
+- Cite the original paper in any published work.
 
 The data reflects real-world political discourse and may contain ideological or sensitive content.
 Users are encouraged to interpret and use it responsibly.
 
-## Citation
-
-If you use this dataset or framework, please cite:
+👉 The dataset is released to support transparency and computational media analysis.
 
 ## Citation
 
@@ -86,7 +84,7 @@ If you use this dataset or framework, please cite:
 
 For questions or collaborations:
 
-- [Zeba Afroz](zebaa@iiitd.ac.in)
-- [Harsh Vardan](harsh25001@iiitd.ac.in)
-- [Md. Shad Akhtar](shad.akhtar@iiitd.ac.in)
+- **Zeba Afroz** — [zebaa@iiitd.ac.in](mailto:zebaa@iiitd.ac.in)
+- **Harsh Vardhan** — [harsh25001@iiitd.ac.in](mailto:harsh25001@iiitd.ac.in)
+- **Md. Shad Akhtar** — [shad.akhtar@iiitd.ac.in](mailto:shad.akhtar@iiitd.ac.in)
 
