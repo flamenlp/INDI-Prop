@@ -2,7 +2,7 @@
 
 This repository contains the INDI-PROP dataset along with the implementation of the FANTA & TPTC frameworks, as introduced in our paper:
 
-📄 Preprint: [*Fine-grained Narrative Classification in Biased News Articles*](https://arxiv.org/abs/2512.03582)  
+📄 Paper: [*Fine-grained Narrative Classification in Biased News Articles*](https://lrec.elra.info/lrec2026-main-665?shem=rimspwouoe,)  
 📅 Presented at: Language Resources and Evaluation Conference (LREC), 2026  
 📍 Palma, Mallorca (Spain) | 🗓 11–16 May 2026
 
@@ -72,11 +72,18 @@ Users are encouraged to interpret and use it responsibly.
 If you use this dataset or framework, please cite:
 
 ```bibtex
-@article{afroz2025fine,
-  title={Fine-grained Narrative Classification in Biased News Articles},
-  author={Afroz, Zeba and Vardhan, Harsh and Bhakuni, Pawan and Punia, Aanchal and Kumar, Rajdeep and Akhtar, Md Shad},
-  journal={arXiv preprint arXiv:2512.03582},
-  year={2025}
+@inproceedings{afroz-etal-2026-fine,
+  title = {Fine-grained Narrative Classification in Biased News Articles},
+  author = {Afroz, Zeba and Vardhan, Harsh and Bhakuni, Pawan and Punia, Aanchal and Kumar, Rajdeep and Akhtar, Md. Shad},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {8431--8445},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/2ddvvr4zijyh},
+  abstract = {Narratives are the cognitive and emotional scaffolds of propaganda. They organize isolated persuasive techniques into coherent stories that justify actions, attribute blame, and evoke identification with ideological camps. In this paper, we propose a novel fine-grained narrative classification in biased news article. We also explore article-bias classification as the pre-cursor task to narrative classification and fine-grained persuassive technique identification. We develop INDI-PROP, the first ideologically grounded fine-grain narrative dataset with multi-level annotation for analyzing propaganda in Indian news media. Our dataset INDI-PROP comprises 1,266 articles focusing on two polarizing socio-political events in recent times: CAA/NRC and the Farmers’ protest. Each article is annotated at three hierarchical levels: (i) ideological article-bias (pro-government, pro-opposition, neutral), (ii) event-specific fine-grained narrative frames anchored in ideological polarity and communicative intent, and (iii) persuasive techniques. We propose FANTA and TPTC, two GPT-4o guided multi-hop prompt-based reasoning frameworks for the bias, narrative, and persuasive technique classification. FANTA leverages multi-layered communicative phenomenon by integrating information extraction and contextual framing for hierarchical reasoning. On the other hand, TPTC adopts systematic decomposition of persuasive cues via a two-stage approach. Our evaluation suggest substantial improvement over underlying baselines in each case.}
 }
 ```
 
