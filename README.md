@@ -3,7 +3,7 @@
 This repository contains the INDI-PROP dataset along with the implementation of the FANTA & TPTC frameworks, as introduced in our paper:
 
 📄 Preprint: [*Fine-grained Narrative Classification in Biased News Articles*](https://arxiv.org/abs/2512.03582)  
-📅 Accepted at: Language Resources and Evaluation Conference (LREC), 2026  
+📅 Presented at: Language Resources and Evaluation Conference (LREC), 2026  
 📍 Palma, Mallorca (Spain) | 🗓 11–16 May 2026
 
 ## Overview
